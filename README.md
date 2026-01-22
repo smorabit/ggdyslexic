@@ -11,7 +11,7 @@ devtools::install_github("smorabit/ggdyslexic")
 
 ## Quick start
 
-To use the font, you simply need to initialize it once per session using `use_dyslexic()`, and then add it to your plot using `theme_dyslexic()`.
+First, initialize the OpenDyslexic font (once per session) using `use_dyslexic()`, and then simply add `theme_dyslexic()` to any ggplot.
 
 ```r 
 
