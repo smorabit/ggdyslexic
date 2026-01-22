@@ -8,13 +8,13 @@
 #' \dontrun{
 #' library(ggplot2)
 #' use_dyslexic()
-#' ggplot(mtcars, aes(hp, mpg)) + geom_point() + theme_dyslexia()
+#' ggplot(mtcars, aes(hp, mpg)) + geom_point() + theme_dyslexic()
 #' }
 use_dyslexic <- function() {
-  font_path <- system.file("fonts", "OpenDyslexic-Regular.ttf", package = "ggdyslexia")
+  font_path <- system.file("fonts", "OpenDyslexic-Regular.ttf", package = "ggdyslexic")
   
   if (font_path == "") {
-    stop("Font file not found in the package. Try reinstalling 'ggdyslexia'.")
+    stop("Font file not found in the package. Try reinstalling 'ggdyslexic'.")
   }
   
   # register the font

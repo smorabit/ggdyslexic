@@ -6,7 +6,7 @@
 
 ```r
 # install.packages("devtools")
-devtools::install_github("smorabit/ggdyslexia")
+devtools::install_github("smorabit/ggdyslexic")
 ```
 
 ## Quick start
@@ -23,9 +23,12 @@ use_dyslexic()
 
 # apply the theme
 ggplot(mtcars, aes(mpg, wt, color = as.factor(cyl))) +
-  geom_point(size = 3) +
-  theme_dyslexic() +
-  labs(title = "Fuel Efficiency by Cylinder Count",
-       subtitle = "with theme_dyslexic()")
+    geom_point(size = 3) +
+    labs(title = "Fuel Efficiency by Cylinder Count",
+        subtitle = "with theme_dyslexic()") +
+    theme_dyslexic() 
+
 
 ```
+
+![mtcars dyslexic example ggplot](mtcars_dyslecix.png)
