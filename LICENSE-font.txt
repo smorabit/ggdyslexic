@@ -1,0 +1,4 @@
+The OpenDyslexic font files included in this package are 
+licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2011, Abbie Gonzalez (https://opendyslexic.org/),
+with Reserved Font Name OpenDyslexic.
