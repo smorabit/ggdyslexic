@@ -31,4 +31,4 @@ ggplot(mtcars, aes(mpg, wt, color = as.factor(cyl))) +
 
 ```
 
-![mtcars dyslexic example ggplot](mtcars_dyslecix.png)
+![mtcars dyslexic example ggplot](mtcars_dyslecic.png)
