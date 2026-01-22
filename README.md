@@ -1,6 +1,6 @@
 # ggdyslexic 
 
-`ggdyslexia` is a tiny R package to make `ggplot2` more accessible for people with dyslexia by integrating the [**OpenDyslexic**](https://opendyslexic.org/) font directly into your workflow.
+`ggdyslexic` is a tiny R package to make `ggplot2` more accessible for people with dyslexia by integrating the [**OpenDyslexic**](https://opendyslexic.org/) font directly into your workflow.
 
 ## Installation
 
