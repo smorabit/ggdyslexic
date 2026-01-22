@@ -1,4 +1,4 @@
-# ggdyslexic 📖
+# ggdyslexic 
 
 `ggdyslexia` is a tiny R package to make `ggplot2` more accessible for people with dyslexia by integrating the **OpenDyslexic** font directly into your workflow.
 
@@ -11,7 +11,7 @@ devtools::install_github("smorabit/ggdyslexic")
 
 ## Quick start
 
-To use the font, you simply need to initialize it once per session using `use_dyslexic()`.
+To use the font, you simply need to initialize it once per session using `use_dyslexic()`, and then add it to your plot using `theme_dyslexic()`.
 
 ```r 
 
