@@ -2,7 +2,7 @@
 % Please edit documentation in R/theme_dyslexic.R
 \name{theme_dyslexic}
 \alias{theme_dyslexic}
-\title{Accessible ggplot2 theme with OpenDyslexic}
+\title{ggplot2 theme with OpenDyslexic font}
 \usage{
 theme_dyslexic(base_size = 14)
 }
@@ -13,5 +13,5 @@ theme_dyslexic(base_size = 14)
 A ggplot2 theme object.
 }
 \description{
-Accessible ggplot2 theme with OpenDyslexic
+ggplot2 theme with OpenDyslexic font
 }
