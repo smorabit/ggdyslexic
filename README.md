@@ -44,7 +44,7 @@ print(p)
 
 ![mtcars dyslexic example ggplot](mtcars_nondyslexic.png)
 
-For further control over the fonts, you can explicitly set the theme and geom elements separately. We can run `use_dyslexic(active = FALSE, load_font = TRUE)`. In this 
+For further control over the fonts, you can explicitly set the theme and geom elements separately. We can run `use_dyslexic(active = FALSE, load_font = TRUE)`.
 
 ```r
 # load the OpenDyslexic font, but don't activate it globally
@@ -53,14 +53,19 @@ use_dyslexic(active = FALSE, load_font = TRUE)
 # create a ggplot with OpenDyslexic as the geom_text_repel font
 p1 <- ggplot(mtcars, aes(mpg, wt, color = as.factor(cyl))) +
     geom_point(size = 3) +
-    ggrepel::geom_text_repel(label = rownames(mtcars), size=2, color='black', family = 'OpenDyslexic') + 
+    ggrepel::geom_text_repel(
+        label = rownames(mtcars), 
+        size=2, color='black', 
+        family = 'OpenDyslexic') + 
     labs(title = "Fuel Efficiency by Cylinder Count",
         subtitle = "with ggdyslexic for geom_text_repel") 
 
 # create a ggplot with OpenDyslexic as the theme font
 p2 <- ggplot(mtcars, aes(mpg, wt, color = as.factor(cyl))) +
     geom_point(size = 3) +
-    ggrepel::geom_text_repel(label = rownames(mtcars), size=2, color='black') + 
+    ggrepel::geom_text_repel(
+        label = rownames(mtcars), 
+        size=2, color='black') + 
     labs(title = "Fuel Efficiency by Cylinder Count",
         subtitle = "with ggdyslexic for theme elements") +
     theme(text = element_text(family = 'OpenDyslexic'))
