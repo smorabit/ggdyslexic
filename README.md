@@ -44,7 +44,7 @@ print(p)
 
 ![mtcars dyslexic example ggplot](mtcars_nondyslexic.png)
 
-For further control over the fonts, you can explicitly set the theme and geom elements separately. We can run `use_dyslexic(active = FALSE, load_font = TRUE)`.
+For further control over the fonts, you can explicitly set the theme and geom elements separately. We can run `use_dyslexic(active = FALSE, load_font = TRUE)` to load the OpenDyslexic font but not activate it globally.
 
 ```r
 # load the OpenDyslexic font, but don't activate it globally
