@@ -1,9 +1,9 @@
 Package: ggdyslexic
-Title: A dyslexia accessible 'ggplot2' theme
-Version: 0.1.0
+Title: A tiny R package for dyslexia-friendly ggplots
+Version: 0.1.1
 Authors@R: 
     person("Sam", "Morabito", , "sam.morabito@cnag.eu", role = c("aut", "cre"))
-Description: A lightweight R package for dyslexia-friendly ggplots
+Description: A tiny R package for dyslexia-friendly ggplots
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -13,5 +13,6 @@ Depends:
 Imports: 
     ggplot2,
     showtext,
-    sysfonts
+    sysfonts,
+    ggrepel
 BugReports: https://github.com/smorabit/ggdyslexic/issues

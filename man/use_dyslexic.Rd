@@ -2,18 +2,17 @@
 % Please edit documentation in R/use_dyslexic.R
 \name{use_dyslexic}
 \alias{use_dyslexic}
-\title{Register and enable OpenDyslexic for ggplot2}
+\title{Load and/or Activate OpenDyslexic for ggplot2}
 \usage{
-use_dyslexic()
+use_dyslexic(active = TRUE, load_font = TRUE)
+}
+\arguments{
+\item{active}{Logical. If TRUE (default), sets OpenDyslexic as the global
+theme and geom default. Requires load_font to be TRUE or already loaded.}
+
+\item{load_font}{Logical. If TRUE (default), registers the OpenDyslexic
+font files with R's font library.}
 }
 \description{
-This function locates the OpenDyslexic font files shipped with the package,
-registers them with the system, and enables showtext rendering.
-}
-\examples{
-\dontrun{
-library(ggplot2)
-use_dyslexic()
-ggplot(mtcars, aes(hp, mpg)) + geom_point() + theme_dyslexic()
-}
+Load and/or Activate OpenDyslexic for ggplot2
 }

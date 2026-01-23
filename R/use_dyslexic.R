@@ -55,20 +55,3 @@ use_dyslexic <- function(active = TRUE, load_font=TRUE) {
   
 }
   
-  # else {
-    # Deactivate and revert
-#     showtext::showtext_auto(FALSE)
-    
-#     # Revert Geoms to "sans"
-#     ggplot2::update_geom_defaults("text", list(family = "sans"))
-#     ggplot2::update_geom_defaults("label", list(family = "sans"))
-#     if (requireNamespace("ggrepel", quietly = TRUE)) {
-#       ggplot2::update_geom_defaults("text_repel", list(family = "sans"))
-#     }
-    
-#     # Revert Theme to the standard Gray theme
-#     ggplot2::theme_set(ggplot2::theme_gray())
-    
-#     message("Dyslexic mode deactivated: Reverted to default ggplot2 settings.")
-#   }
-}

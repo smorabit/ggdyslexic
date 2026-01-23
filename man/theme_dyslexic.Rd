@@ -4,10 +4,7 @@
 \alias{theme_dyslexic}
 \title{ggplot2 theme with OpenDyslexic font}
 \usage{
-theme_dyslexic(base_size = 14)
-}
-\arguments{
-\item{base_size}{Numeric. Base font size.}
+theme_dyslexic()
 }
 \value{
 A ggplot2 theme object.
